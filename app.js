@@ -17,7 +17,8 @@ connectDB();
 // CORS Configuration
 const allowedOrigins = [
   'https://fleetlinkbackend-iota.vercel.app',
-  'http://localhost:5173'
+  'http://localhost:5173',
+  'https://fleetlinkfronterd.vercel.app'
 ];
 
 const corsOptions = {
